@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "create_articulate",
+  "version": "${version}",
+  "name": "Create Articulate",
+  "description": "Basically Archimedes Ships, but with VS2 as the backend!",
+  "authors": [
+    "OnesAndZer0s"
+  ],
+  "contact": {
+    "homepage": "https://valkyrienskies.org/",
+    "sources": "https://github.com/ValkyrienSkies/CreateArticulate"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/create_articulate/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.onesandzer0s.create_articulate.fabric.CreateArticulateModFabric"
+    ],
+    "client": [
+      "org.onesandzer0s.create_articulate.fabric.CreateArticulateModFabric${'$'}Client"
+    ],
+    "preLaunch": [
+      "org.onesandzer0s.create_articulate.fabric.ValkyrienPreLaunch"
+    ],
+    "modmenu": [
+      "org.onesandzer0s.create_articulate.fabric.CreateArticulateModFabric${'$'}ModMenu"
+    ],
+    "fabric-datagen": [
+      "org.onesandzer0s.create_articulate.fabric.CreateArticulateDataGenerator"
+    ]
+  },
+  "mixins": [
+    "create_articulate-common.mixins.json",
+    "create_articulate.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.20.1",
+    "valkyrienskies": ">=${vs2_version}",
+    "fabricloader": ">=0.14.21"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "create_articulate:balloon",
+    "create_articulate:white_balloon",
+    "create_articulate:light_gray_balloon",
+    "create_articulate:gray_balloon",
+    "create_articulate:black_balloon",
+    "create_articulate:red_balloon",
+    "create_articulate:orange_balloon",
+    "create_articulate:yellow_balloon",
+    "create_articulate:lime_balloon",
+    "create_articulate:green_balloon",
+    "create_articulate:light_blue_balloon",
+    "create_articulate:cyan_balloon",
+    "create_articulate:blue_balloon",
+    "create_articulate:purple_balloon",
+    "create_articulate:magenta_balloon",
+    "create_articulate:pink_balloon",
+    "create_articulate:brown_balloon"
+  ]
+}

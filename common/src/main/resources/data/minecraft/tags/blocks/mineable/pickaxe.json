@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create_articulate:ballast",
+    "create_articulate:engine",
+    "create_articulate:anchor"
+  ]
+}

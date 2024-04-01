@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_articulate:floater",
+    "#create_articulate:ship_helms"
+  ]
+}

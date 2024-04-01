@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "create_articulate:balloons"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "create_articulate:orange_balloon",
+    "count": 1
+  },
+  "group": "colored_balloons"
+}

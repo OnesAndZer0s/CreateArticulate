@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#P#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "create_articulate:floater",
+    "count": 16
+  }
+}

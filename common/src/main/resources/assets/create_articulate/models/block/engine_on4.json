@@ -1,0 +1,6 @@
+{
+  "parent": "create_articulate:block/engine",
+  "textures": {
+    "front": "create_articulate:block/engine_front_on_4"
+  }
+}

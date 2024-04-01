@@ -1,0 +1,9 @@
+{
+  "itemGroup.create_articulate.create_articulate_tab": "VS CreateArticulate",
+  "block.create_articulate.ship_helm": "Steuerruder",
+  "block.create_articulate.anchor": "Anker",
+  "block.create_articulate.engine": "Schiffsmotor",
+  "block.create_articulate.balloon": "Ballon",
+  "block.create_articulate.floater": "Schwimmer",
+  "block.create_articulate.ballast": "Ballast"
+}

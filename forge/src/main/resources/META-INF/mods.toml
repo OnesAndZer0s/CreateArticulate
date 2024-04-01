@@ -1,0 +1,35 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[3.12.0,)"
+issueTrackerURL = "https://github.com/ValkyrienSkies/Valkyrien-Skies-2/issues"
+license = "Apache-2.0"
+
+[[mods]]
+modId = "create_articulate"
+version = "${version}"
+displayName = "Create: Articulate"
+authors = ["OnesAndZer0s"]
+description = '''
+Valkyrien Skies 2 implementation to add Create Contraption articulation
+'''
+logoFile = "icon.png"
+
+[[dependencies.create_articulate]]
+modId = "forge"
+mandatory = true
+versionRange = "[47.0.18,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_articulate]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_articulate]]
+modId = "valkyrienskies"
+mandatory = true
+versionRange = "[${vs2_version},)"
+ordering = "AFTER"
+side = "BOTH"

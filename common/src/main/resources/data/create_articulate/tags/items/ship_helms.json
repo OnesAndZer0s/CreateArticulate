@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "create_articulate:oak_ship_helm",
+    "create_articulate:spruce_ship_helm",
+    "create_articulate:birch_ship_helm",
+    "create_articulate:jungle_ship_helm",
+    "create_articulate:acacia_ship_helm",
+    "create_articulate:dark_oak_ship_helm",
+    "create_articulate:crimson_ship_helm",
+    "create_articulate:warped_ship_helm"
+  ]
+}

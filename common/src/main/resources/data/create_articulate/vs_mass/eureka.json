@@ -1,0 +1,14 @@
+[
+  {
+    "block": "create_articulate:ship_helm",
+    "mass": 350.0
+  },
+  {
+    "block": "create_articulate:engine",
+    "mass": 3200.0
+  },
+  {
+    "block": "create_articulate:anchor",
+    "mass": 8840.0
+  }
+]
